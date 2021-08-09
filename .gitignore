@@ -1,0 +1,34 @@
+lib-cov
+*.log
+*.csv
+*.dat
+*.out
+*.gz
+*.swp
+
+logs
+results
+tmp
+.nyc_output
+
+# Coverage reports
+coverage
+
+# API keys and secrets
+.env
+
+# Dependency directory
+node_modules
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+# ignore yarn.lock
+yarn.lock
+
+# ignore package.lock
+package.lock
